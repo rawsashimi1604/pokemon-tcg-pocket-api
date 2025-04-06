@@ -1,5 +1,73 @@
 # Pokemon Pocket TCG API
 
+## Notes
+
+### Roadmap
+
+- Achievements
+- Profile pictures
+- Misc stuff (coins, sleeves, playmats)
+
+### Frontend
+
+- ChatGPT wrapper for MCP
+- Meta decks
+- Individual Sets (collection)
+- Individual Cards
+
+### NFR
+
+- Open API Spec
+- TLS Secure
+- Rate Limit
+- Redocly for spec
+
+### FR
+
+- Image storage (github ref)
+- Pokemon card sets
+  - name
+  - id
+  - release date
+  - cards (ref to the pokemon card)
+  - image link
+  - number of cards
+- Card
+  - id
+  - type (trainer or pokemon)
+  - name
+  - trainer effect (trainer)
+  - rarity
+  - chance to pull
+    - Lucky pack
+    - Normal Pack
+    - Ordering Sequence
+  - HP (pokemon)
+  - ability (pokemon)
+  - moves (pokemon)
+    - energy cost (qty and type)
+    - name
+    - damage
+    - effect
+  - linked cards (evolutions)
+  - set (link)
+  - text
+  - pokedex number (link to the pokemon pokedex API)
+
+### Routes
+
+- GET /api/set
+  - Retrieves all card sets
+    - Query Params:
+      - id
+      - sort (add sort options)
+- GET /api/set/{setId}
+  - Retrieve metadata of card set
+- GET /api/card
+- GET /api/card/{cardId}
+
+## Quarkus stuff
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.

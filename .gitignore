@@ -1,3 +1,7 @@
+#Python
+
+venv
+
 #Maven
 target/
 pom.xml.tag

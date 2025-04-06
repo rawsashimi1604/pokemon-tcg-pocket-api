@@ -36,6 +36,25 @@ def download_image(img_url, folder):
     else:
         print(f'Failed to download: {img_url}')
 
+def fetch_card_data(soup: BeautifulSoup):
+    """Fetches card data from soup html and adds it into the specified folder"""
+    
+    card_data = {}
+
+    # Card name
+    card_data['name'] = soup.find("p", class_="card-text-title").text.split("-")[0].strip()
+    card_data['type'] = soup.find("p", class_="card-text-title").text.split("-")[1].strip() 
+    card_data['hp'] = soup.find("p", class_="card-text-title").text.split("-")[2].strip()
+
+    # Card details (id, rarity, pack)
+    card_details = soup.find("div", class_="prints-current-details").find_all("span")[1].text
+    card_data["id"] = card_details.split("·")[0].strip()[1:] # take out the #
+    card_data["rarity"] = card_details.split("·")[1].strip()
+    card_data["pack"] = card_details.split("·")[2].strip() # Should format the pack name
+
+    print(card_data)
+
+
 def main(set_identifier):
     base_url = f'https://pocket.limitlesstcg.com/cards/{set_identifier}'
     
@@ -73,6 +92,11 @@ def main(set_identifier):
             continue
 
         card_soup = BeautifulSoup(card_response.text, 'html.parser')
+
+        # Card details
+        fetch_card_data(card_soup)
+
+        # Card image
         card_div = card_soup.find("div", class_="card-image")
         if card_div:
             img_tag = card_div.find('img', class_="card shadow resp-w")

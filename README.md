@@ -33,25 +33,31 @@
   - image link
   - number of cards
 - Card
-  - id
-  - type (trainer or pokemon)
-  - name
+  - [DONE] id
+  - [DONE] type (trainer or pokemon)
+  - [DONE] name
   - trainer effect (trainer)
-  - rarity
-  - chance to pull
+  - Stage
+  - [DONE] rarity
+  - chance to pull (GOOD TO HAVE)
     - Lucky pack
     - Normal Pack
     - Ordering Sequence
-  - HP (pokemon)
+  - [DONE] HP (pokemon)
   - ability (pokemon)
   - moves (pokemon)
     - energy cost (qty and type)
     - name
     - damage
     - effect
-  - linked cards (evolutions)
+  - linked cards (evolutions, pokemon)
+  - weakness (pokemon)
+  - retreat (pokemon)
   - set (link)
   - text
+  - artist
+    - name
+    - URL
   - pokedex number (link to the pokemon pokedex API)
 
 ### Routes
@@ -80,7 +86,7 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
+> **_NOTE:_** Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
 
 ## Packaging and running the application
 

@@ -58,7 +58,6 @@
   - artist
     - name
     - URL
-  - pokedex number (link to the pokemon pokedex API)
 
 ### Routes
 

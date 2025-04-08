@@ -1,0 +1,53 @@
+{
+  "id": "3",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex (A1)",
+    "ref": "/some/set/link/here/A1"
+  },
+  "type": "Grass",
+  "name": "Venusaur ex",
+  "stage": "Stage 2",
+  "rarity": "Double Rare",
+  "hp": 190,
+  "moves": [
+    {
+      "name": "Razor Leaf",
+      "energy": ["Grass", "Colorless", "Colorless"],
+      "damage": 60
+    },
+    {
+      "name": "Giant Bloom",
+      "energy": ["Grass", "Grass", "Colorless", "Colorless"],
+      "damage": 100,
+      "effect": "Heal 30 damage from this Pokemon."
+    }
+  ],
+  "evolutionFrom": [
+    {
+      "name": "Ivysaur",
+      "cards": [
+        {
+          "id": "2",
+          "set": {
+            "id": "A1",
+            "name": "Genetic Apex (A1)",
+            "ref": "/some/set/link/here/A1"
+          },
+          "ref": "/some/card/link/here/A1/2"
+        }
+      ]
+    }
+  ],
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": ["Colorless", "Colorless", "Colorless"],
+  "text": "ex rule: When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+  "artist": {
+    "id": 1,
+    "name": "PLANETA CG Works",
+    "ref": "/some/artist/link/here/1"
+  }
+}

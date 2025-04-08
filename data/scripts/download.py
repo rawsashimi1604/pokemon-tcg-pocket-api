@@ -49,10 +49,40 @@ def fetch_card_data(soup: BeautifulSoup):
     # Card details (id, rarity, pack)
     card_details = soup.find("div", class_="prints-current-details").find_all("span")[1].text
     card_data["id"] = card_details.split("·")[0].strip()[1:] # take out the #
-    card_data["rarity"] = card_details.split("·")[1].strip()
-    card_data["pack"] = card_details.split("·")[2].strip() # Should format the pack name
+    card_data["rarity"] = map_rarity(card_details.split("·")[1].strip())
 
+    # Has the card pack exist
+    if len(card_details.split("·")) >= 3:
+        card_pack = card_details.split("·")[2].strip()
+        card_data["pack"] = map_card_pack(card_pack)
+    else:
+        card_data["pack"] = map_card_pack("")
+    
     print(card_data)
+
+def map_rarity(rarity: str):
+    """Maps rarity symbol to string"""
+
+    rarityMap = {
+        "◊": "Common",
+        "◊◊": "Uncommon",
+        "◊◊◊": "Rare",
+        "◊◊◊◊": "Double Rare",
+    }
+
+    return rarityMap[rarity]
+
+def map_card_pack(pack: str):
+    """Maps card pack to string"""
+
+    cardPackMap = {
+        "Charizard  pack": ["Charizard"],
+        "Mewtwo  pack": ["Mewtwo"],
+        "Pikachu  pack": ["Pikachu"],
+        "": ["Charizard", "Mewtwo", "Pikachu"]
+    }
+
+    return cardPackMap[pack]
 
 
 def main(set_identifier):

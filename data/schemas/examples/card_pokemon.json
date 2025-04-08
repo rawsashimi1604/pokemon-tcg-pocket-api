@@ -5,7 +5,8 @@
     "name": "Genetic Apex (A1)",
     "ref": "/some/set/link/here/A1"
   },
-  "type": "Grass",
+  "card_type": "Pokemon",
+  "type": "Trainer",
   "name": "Venusaur ex",
   "stage": "Stage 2",
   "rarity": "Double Rare",
@@ -14,12 +15,12 @@
     {
       "name": "Razor Leaf",
       "energy": ["Grass", "Colorless", "Colorless"],
-      "damage": 60
+      "damage": "60"
     },
     {
       "name": "Giant Bloom",
       "energy": ["Grass", "Grass", "Colorless", "Colorless"],
-      "damage": 100,
+      "damage": "100",
       "effect": "Heal 30 damage from this Pokemon."
     }
   ],

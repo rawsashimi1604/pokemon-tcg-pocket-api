@@ -1,0 +1,19 @@
+{
+  "id": "220",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex (A1)",
+    "ref": "/some/set/link/here/A1"
+  },
+  "card_type": "Trainer",
+  "type": "Supporter",
+  "name": "Misty",
+  "rarity": "Uncommon",
+  "effect": "Choose 1 of your [W] Pokémon, and flip a coin until you get tails. For each heads, take a [W] Energy from your Energy Zone and attach it to that Pokémon.",
+  "text": "You may play only 1 Supporter card during  your turn.",
+  "artist": {
+    "id": 2,
+    "name": "Sanosuke Sakuma",
+    "ref": "/some/artist/link/here/2"
+  }
+}

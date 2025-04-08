@@ -1,0 +1,20 @@
+{
+  "id": "216",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex (A1)",
+    "ref": "/some/set/link/here/A1"
+  },
+  "card_type": "Trainer",
+  "type": "Item",
+  "name": "Helix Fossil",
+  "hp": 40,
+  "rarity": "Common",
+  "effect": "Play this card as if it were a 40-HP Basic [C] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
+  "text": "You may play any number of Item cards during your turn.",
+  "artist": {
+    "id": 3,
+    "name": "Toyste Beach",
+    "ref": "/some/artist/link/here/3"
+  }
+}

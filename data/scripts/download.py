@@ -14,6 +14,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import pprint
 import re
 
 def snake_case(name):
@@ -24,7 +25,7 @@ def snake_case(name):
 def download_image(img_url, folder):
     """Download an image from the given URL to the specified folder."""
     headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; YourBot/1.0; +http://yourdomain.com/bot)'
+        'User-Agent': 'Mozilla/5.0'
     }
     response = requests.get(img_url, headers=headers, stream=True)
     if response.status_code == 200:
@@ -36,20 +37,21 @@ def download_image(img_url, folder):
     else:
         print(f'Failed to download: {img_url}')
 
-def fetch_card_data(soup: BeautifulSoup):
+def fetch_card_data(soup: BeautifulSoup, set_identifier: str):
     """Fetches card data from soup html and adds it into the specified folder"""
     
     card_data = {}
-
-    # Card name
-    card_data['name'] = soup.find("p", class_="card-text-title").text.split("-")[0].strip()
-    card_data['type'] = soup.find("p", class_="card-text-title").text.split("-")[1].strip() 
-    card_data['hp'] = soup.find("p", class_="card-text-title").text.split("-")[2].strip()
 
     # Card details (id, rarity, pack)
     card_details = soup.find("div", class_="prints-current-details").find_all("span")[1].text
     card_data["id"] = card_details.split("·")[0].strip()[1:] # take out the #
     card_data["rarity"] = map_rarity(card_details.split("·")[1].strip())
+
+    # Card set data
+    card_set = {}
+    card_set["id"] = set_identifier
+    card_set["name"] = soup.find("div", class_="prints-current-details").find("span", class_="text-lg").text.strip()
+    card_data["set"] = card_set
 
     # Has the card pack exist
     if len(card_details.split("·")) >= 3:
@@ -57,8 +59,36 @@ def fetch_card_data(soup: BeautifulSoup):
         card_data["pack"] = map_card_pack(card_pack)
     else:
         card_data["pack"] = map_card_pack("")
+
+    # Card text type
+    card_type = soup.find("p", class_="card-text-type").text.split("-")[0].strip()
+    card_data['name'] = soup.find("p", class_="card-text-title").text.split("-")[0].strip()
+
+    if (card_type == "Trainer"):
+        card_data['card_type'] = soup.find("p", class_="card-text-type").text.split("-")[0].strip()
+        card_data["type"] = soup.find("p", class_="card-text-type").text.split("-")[1].strip()
+        card_data["effect"] = soup.findAll("div", class_="card-text-section")[1].text.strip()
+        card_data["text"] = map_trainer_text(card_data["type"])
+
+    else:
+        card_data["card_type"] = "Pokemon"
+        card_data["stage"] = soup.find("p", class_="card-text-type").text.split("-")[1].strip()
+        if (card_data["stage"] != "Basic"):
+            card_data["evolutionFrom"] = soup.find("p", class_="card-text-type").find("a").text.strip()
+
+        card_data['type'] = soup.find("p", class_="card-text-title").text.split("-")[1].strip()
+        card_data['hp'] = soup.find("p", class_="card-text-title").text.split("-")[2].strip()
+        
+        card_data_text = soup.find("div", class_="card-text-section card-text-flavor")
+        if card_data_text != None:
+            card_data["text"] = card_data_text.text.strip()
+
     
-    print(card_data)
+    
+    # Artist
+    card_data["artist"] = soup.find("div", class_="card-text-section card-text-artist").find("a").text.strip()
+    
+    pprint.pp(card_data)
 
 def map_rarity(rarity: str):
     """Maps rarity symbol to string"""
@@ -68,6 +98,10 @@ def map_rarity(rarity: str):
         "◊◊": "Uncommon",
         "◊◊◊": "Rare",
         "◊◊◊◊": "Double Rare",
+        "☆": "Illustration Rare",
+        "☆☆": "Special Art Rare",
+        "☆☆☆": "Immersive Rare",
+        "Crown Rare": "Crown Rare"
     }
 
     return rarityMap[rarity]
@@ -83,6 +117,16 @@ def map_card_pack(pack: str):
     }
 
     return cardPackMap[pack]
+
+def map_trainer_text(trainer_type: str):
+    """Maps trainer type to a text string"""
+
+    cardTypeMap = {
+        "Supporter": "You may play only 1 Supporter card during your turn.",
+        "Item": "You may play any number of Item cards during your turn.",
+    }
+
+    return cardTypeMap[trainer_type]
 
 
 def main(set_identifier):
@@ -115,6 +159,11 @@ def main(set_identifier):
 
     # Iterate through each card link to find and download images
     for link in card_links:
+
+        # TMP to get the trainer
+        if link["href"] != "/cards/A1/216":
+            continue
+
         card_url = urljoin(base_url, link['href'])
         card_response = requests.get(card_url, headers=headers)
         if card_response.status_code != 200:
@@ -124,7 +173,7 @@ def main(set_identifier):
         card_soup = BeautifulSoup(card_response.text, 'html.parser')
 
         # Card details
-        fetch_card_data(card_soup)
+        fetch_card_data(card_soup, set_identifier)
 
         # Card image
         card_div = card_soup.find("div", class_="card-image")

@@ -14,7 +14,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import pprint
+import json
 import re
 
 def snake_case(name):
@@ -22,20 +22,31 @@ def snake_case(name):
     name = re.sub(r'[^a-zA-Z0-9\s]', '', name)  # Remove special characters
     return '_'.join(name.lower().split())
 
-def download_image(img_url, folder):
+def download_image(img_url, folder, set_identifier, card_id):
     """Download an image from the given URL to the specified folder."""
     headers = {
         'User-Agent': 'Mozilla/5.0'
     }
     response = requests.get(img_url, headers=headers, stream=True)
     if response.status_code == 200:
-        filename = os.path.join(folder, os.path.basename(img_url))
+        # Get the file extension from the original URL
+        file_ext = os.path.splitext(img_url)[1]  # Gets .jpg, .png, etc.
+        # Create new filename in format A1_001.jpg
+        filename = os.path.join(folder, f"{set_identifier}_{card_id}{file_ext}")
         with open(filename, 'wb') as file:
             for chunk in response.iter_content(1024):
                 file.write(chunk)
         print(f'Downloaded: {filename}')
     else:
         print(f'Failed to download: {img_url}')
+
+def save_to_json(data, folder, filename):
+    """Save data to a JSON file in the specified folder."""
+    os.makedirs(folder, exist_ok=True)
+    filepath = os.path.join(folder, filename)
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f'Saved JSON: {filepath}')
 
 def fetch_card_data(soup: BeautifulSoup, set_identifier: str):
     """Fetches card data from soup html and adds it into the specified folder"""
@@ -67,7 +78,7 @@ def fetch_card_data(soup: BeautifulSoup, set_identifier: str):
     if (card_type == "Trainer"):
         card_data['card_type'] = soup.find("p", class_="card-text-type").text.split("-")[0].strip()
         card_data["type"] = soup.find("p", class_="card-text-type").text.split("-")[1].strip()
-        card_data["effect"] = soup.findAll("div", class_="card-text-section")[1].text.strip()
+        card_data["effect"] = soup.find_all("div", class_="card-text-section")[1].text.strip()
         card_data["text"] = map_trainer_text(card_data["type"])
 
     else:
@@ -91,10 +102,46 @@ def fetch_card_data(soup: BeautifulSoup, set_identifier: str):
             card_data["weakness"] = { "type": weakness, "value": 20 }
             card_data["retreat"] = ["Colorless"] * int(retreat)
 
+        flavor = soup.find("div", class_="card-text-section card-text-flavor")
+        if flavor:
+            card_data["text"] = flavor.text.strip() 
+        
+        abilities = soup.find_all("div", class_="card-text-ability")
+        card_abilities = []
+        for ability in abilities:
+            ability_tmp = {}
+            ability_tmp["name"] = ability.find("p", class_="card-text-ability-info").text.strip().split(":")[1].strip()
+            ability_tmp["effect"] = ability.find("p", class_="card-text-ability-effect").text.strip()
+            card_abilities.append(ability_tmp)
+        
+        card_data["abilities"] = card_abilities
+
+        moves = soup.find_all("div", class_="card-text-attack")
+        data_moves = []
+        for move in moves:
+            info = move.find("p", class_="card-text-attack-info").text.strip()
+            match = re.search(r'^(\w+)\s*\n\s*([^\d]+)\s*(\d+)', info)
+            move_data = {}
+            if match:
+                energy= match.group(1)  # "GCC"
+                move_name = match.group(2).strip()  # "Razor Leaf"
+                damage = int(match.group(3))  # 60
+                
+                move_data["name"] = move_name
+                move_data["energy"] = [map_energy(x) for x in energy]
+                move_data["damage"] = damage
+            
+            effect = move.find("p", class_="card-text-attack-effect").text.strip()
+            if effect:
+                move_data["effect"] = effect 
+            data_moves.append(move_data)
+
+        card_data["moves"] = data_moves
+
     # Artist
     card_data["artist"] = soup.find("div", class_="card-text-section card-text-artist").find("a").text.strip()
     
-    pprint.pp(card_data)
+    return card_data
 
 def map_rarity(rarity: str):
     """Maps rarity symbol to string"""
@@ -134,6 +181,23 @@ def map_trainer_text(trainer_type: str):
 
     return cardTypeMap[trainer_type]
 
+def map_energy(energyChar: str):
+    """Maps energy character to a text string"""
+
+    energyMap = {
+        "G": "Grass",
+        "R": "Fire",
+        "W": "Water",
+        "P": "Psychic",
+        "D": "Darkness",
+        "L": "Lightning",
+        "F": "Fighting",
+        "M": "Metal",
+        "C": "Colorless"
+    }
+
+    return energyMap[energyChar]
+
 
 def main(set_identifier):
     base_url = f'https://pocket.limitlesstcg.com/cards/{set_identifier}'
@@ -157,8 +221,13 @@ def main(set_identifier):
         return
 
     # Directory to save images
-    output_dir = os.path.join('..', 'images', 'sets', set_folder_name)
-    os.makedirs(output_dir, exist_ok=True)
+    images_dir = os.path.join('..', 'images', 'sets', set_folder_name)
+
+    # Directory to save json data
+    json_dir = os.path.join('..', 'cards', 'sets', set_folder_name)
+
+    os.makedirs(images_dir, exist_ok=True)
+    os.makedirs(json_dir, exist_ok=True)
 
     # Find all card links on the set page
     card_links = soup.select(f'a[href^="/cards/{set_identifier}/"]')
@@ -166,9 +235,9 @@ def main(set_identifier):
     # Iterate through each card link to find and download images
     for link in card_links:
 
-        # TMP to get the trainer
-        if link["href"] != "/cards/A1/4":
-            continue
+        # # TMP to get the trainer
+        # if link["href"] != "/cards/A1/89":
+        #     continue
 
         card_url = urljoin(base_url, link['href'])
         card_response = requests.get(card_url, headers=headers)
@@ -179,7 +248,9 @@ def main(set_identifier):
         card_soup = BeautifulSoup(card_response.text, 'html.parser')
 
         # Card details
-        fetch_card_data(card_soup, set_identifier)
+        card_data = fetch_card_data(card_soup, set_identifier)
+        file_name = f'{card_data["set"]["id"]}_{card_data["id"]}.json'
+        save_to_json(card_data, json_dir, file_name)
 
         # Card image
         card_div = card_soup.find("div", class_="card-image")
@@ -187,12 +258,13 @@ def main(set_identifier):
             img_tag = card_div.find('img', class_="card shadow resp-w")
             if img_tag:
                 img_url = img_tag['src']
-                download_image(img_url, output_dir)
+                download_image(img_url, images_dir, set_identifier, card_data["id"])
             else:
                 print(f'No image found on page: {card_url}')
         else:
             print(f'No card image container found on page: {card_url}')
 
+    print("\n\nCompleted download operation.")
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("Usage: python download.py <set_identifier>")

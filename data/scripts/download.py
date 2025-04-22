@@ -83,8 +83,14 @@ def fetch_card_data(soup: BeautifulSoup, set_identifier: str):
         if card_data_text != None:
             card_data["text"] = card_data_text.text.strip()
 
-    
-    
+        weakness = soup.find("p", class_="card-text-wrr").text.strip()
+        card_text_wrr_match = re.search(r'Weakness:\s*(.*?)\s*Retreat:\s*(\d+)', weakness)
+        if card_text_wrr_match:
+            weakness = card_text_wrr_match.group(1).strip()
+            retreat = card_text_wrr_match.group(2).strip()
+            card_data["weakness"] = { "type": weakness, "value": 20 }
+            card_data["retreat"] = ["Colorless"] * int(retreat)
+
     # Artist
     card_data["artist"] = soup.find("div", class_="card-text-section card-text-artist").find("a").text.strip()
     
@@ -161,7 +167,7 @@ def main(set_identifier):
     for link in card_links:
 
         # TMP to get the trainer
-        if link["href"] != "/cards/A1/216":
+        if link["href"] != "/cards/A1/4":
             continue
 
         card_url = urljoin(base_url, link['href'])

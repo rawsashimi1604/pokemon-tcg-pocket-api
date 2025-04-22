@@ -1,0 +1,35 @@
+{
+  "id": "113",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Clefairy",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "60 HP",
+  "text": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+  "weakness": {
+    "type": "Metal",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Slap",
+      "energy": [
+        "Psychic"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "kirisAki"
+}

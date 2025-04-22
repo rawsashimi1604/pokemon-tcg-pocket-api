@@ -1,0 +1,41 @@
+{
+  "id": "69",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Kingler",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Krabby",
+  "type": "Water",
+  "hp": "120 HP",
+  "text": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "KO Crab",
+      "energy": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "Flip 2 coins. If both of them are heads, this attack does 80 more damage."
+    }
+  ],
+  "artist": "Shigenori Negishi"
+}

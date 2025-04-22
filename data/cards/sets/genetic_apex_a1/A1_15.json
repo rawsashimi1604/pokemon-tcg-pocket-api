@@ -1,0 +1,39 @@
+{
+  "id": "15",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Parasect",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Paras",
+  "type": "Grass",
+  "hp": "120 HP",
+  "text": "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Slash",
+      "energy": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 80
+    }
+  ],
+  "artist": "Eri Yamaki"
+}

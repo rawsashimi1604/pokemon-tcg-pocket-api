@@ -1,0 +1,49 @@
+{
+  "id": "286",
+  "rarity": "Crown Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Mewtwo ex",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "150 HP",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Psychic Sphere",
+      "energy": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 50
+    },
+    {
+      "name": "Psydrive",
+      "energy": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 150,
+      "effect": "Discard 2 [P] Energy from this Pokémon."
+    }
+  ],
+  "artist": "PLANETA Mochizuki"
+}

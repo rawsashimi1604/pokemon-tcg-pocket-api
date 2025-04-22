@@ -1,0 +1,36 @@
+{
+  "id": "143",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Machop",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "70 HP",
+  "text": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Knuckle Punch",
+      "energy": [
+        "Fighting"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Kyoko Umemoto"
+}

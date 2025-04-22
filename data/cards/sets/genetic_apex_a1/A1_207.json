@@ -1,0 +1,35 @@
+{
+  "id": "207",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Eevee",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tackle",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Hasuno"
+}

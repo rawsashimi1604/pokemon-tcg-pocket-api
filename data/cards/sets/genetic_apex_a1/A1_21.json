@@ -1,0 +1,35 @@
+{
+  "id": "21",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Exeggcute",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "50 HP",
+  "text": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Seed Bomb",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "kawayoo"
+}

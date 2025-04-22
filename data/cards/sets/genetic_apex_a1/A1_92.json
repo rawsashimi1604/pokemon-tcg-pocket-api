@@ -1,0 +1,37 @@
+{
+  "id": "92",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Snom",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "50 HP",
+  "text": "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
+  "weakness": {
+    "type": "Metal",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Ram",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10
+    }
+  ],
+  "artist": "ryoma uratsuka"
+}

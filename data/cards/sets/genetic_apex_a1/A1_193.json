@@ -1,0 +1,36 @@
+{
+  "id": "193",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Jigglypuff",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Pound",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Mizue"
+}

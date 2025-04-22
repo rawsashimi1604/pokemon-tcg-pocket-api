@@ -1,0 +1,38 @@
+{
+  "id": "170",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Nidorino",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Nidoran♂",
+  "type": "Darkness",
+  "hp": "90 HP",
+  "text": "With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Horn Attack",
+      "energy": [
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Kouki Saitou"
+}

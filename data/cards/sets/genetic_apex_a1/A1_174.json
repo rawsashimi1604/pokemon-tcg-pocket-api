@@ -1,0 +1,38 @@
+{
+  "id": "174",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Grimer",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Darkness",
+  "hp": "70 HP",
+  "text": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Poison Gas",
+      "energy": [
+        "Darkness"
+      ],
+      "damage": 10,
+      "effect": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "artist": "Pani Kobayashi"
+}

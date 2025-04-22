@@ -1,0 +1,44 @@
+{
+  "id": "52",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Centiskorch",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Sizzlipede",
+  "type": "Fire",
+  "hp": "130 HP",
+  "text": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Fire Blast",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 130,
+      "effect": "Discard a [R] Energy from this Pokémon."
+    }
+  ],
+  "artist": "GOSSAN"
+}

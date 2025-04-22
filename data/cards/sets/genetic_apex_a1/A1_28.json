@@ -1,0 +1,38 @@
+{
+  "id": "28",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Whimsicott",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Cottonee",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "It scatters cotton all over the place as a prank. If it gets wet, it’ll become too heavy to move and have no choice but to answer for its mischief.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Rolling Tackle",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Atsuko Nishida"
+}

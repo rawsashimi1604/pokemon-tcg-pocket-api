@@ -1,0 +1,39 @@
+{
+  "id": "34",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Charmeleon",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Charmander",
+  "type": "Fire",
+  "hp": "90 HP",
+  "text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Fire Claws",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "kantaro"
+}

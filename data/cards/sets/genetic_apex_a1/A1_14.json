@@ -1,0 +1,36 @@
+{
+  "id": "14",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Paras",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "70 HP",
+  "text": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Scratch",
+      "energy": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "7",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Butterfree",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Metapod",
+  "type": "Grass",
+  "hp": "120 HP",
+  "text": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Powder Heal",
+      "effect": "Once during your turn, you may heal 20 damage from each of your Pokémon."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Gust",
+      "energy": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Shin Nagasawa"
+}

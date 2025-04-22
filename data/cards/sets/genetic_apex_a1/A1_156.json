@@ -1,0 +1,39 @@
+{
+  "id": "156",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Rhyhorn",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "80 HP",
+  "text": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tackle",
+      "energy": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Midori Harada"
+}

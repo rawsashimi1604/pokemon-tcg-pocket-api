@@ -1,0 +1,44 @@
+{
+  "id": "61",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Poliwrath",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Poliwhirl",
+  "type": "Water",
+  "hp": "150 HP",
+  "text": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Counterattack",
+      "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "energy": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 80
+    }
+  ],
+  "artist": "Akira Komayama"
+}

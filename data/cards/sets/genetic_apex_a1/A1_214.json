@@ -1,0 +1,38 @@
+{
+  "id": "214",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Wooloo",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "70 HP",
+  "text": "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tackle",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Yoriyuki Ikegami"
+}

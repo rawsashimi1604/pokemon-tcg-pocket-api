@@ -1,0 +1,37 @@
+{
+  "id": "64",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Seel",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "80 HP",
+  "text": "Thanks to its thick fat, cold seas don’t bother it at all, but it gets tired pretty easily in warm waters.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Headbutt",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Masako Yamashita"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "146",
+  "rarity": "Double Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Machamp ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Machoke",
+  "type": "Fighting",
+  "hp": "180 HP",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "energy": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 120
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "114",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Clefable",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Clefairy",
+  "type": "Psychic",
+  "hp": "100 HP",
+  "text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+  "weakness": {
+    "type": "Metal",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Magical Shot",
+      "energy": [
+        "Psychic"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Sanosuke Sakuma"
+}

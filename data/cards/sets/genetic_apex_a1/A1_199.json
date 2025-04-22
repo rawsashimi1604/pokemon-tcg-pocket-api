@@ -1,0 +1,37 @@
+{
+  "id": "199",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Doduo",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "A two-headed Pokémon that was discovered as a  sudden mutation. It runs at a pace of over 60 miles per hour.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Peck",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Yuya Oka"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "272",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Sabrina",
+  "card_type": "Trainer",
+  "type": "Supporter",
+  "effect": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+  "text": "You may play only 1 Supporter card during your turn.",
+  "artist": "GIDORA"
+}

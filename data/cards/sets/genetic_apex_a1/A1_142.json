@@ -1,0 +1,38 @@
+{
+  "id": "142",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Primeape",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Mankey",
+  "type": "Fighting",
+  "hp": "90 HP",
+  "text": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Fight Back",
+      "energy": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 40,
+      "effect": "If this Pokémon has damage on it, this attack does 60 more damage."
+    }
+  ],
+  "artist": "Kagemaru Himeno"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "128",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Mewtwo",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "120 HP",
+  "text": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Power Blast",
+      "energy": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 120,
+      "effect": "Discard 2 [P] Energy from this Pokémon."
+    }
+  ],
+  "artist": "kawayoo"
+}

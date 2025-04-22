@@ -1,0 +1,31 @@
+{
+  "id": "154",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Hitmonlee",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "80 HP",
+  "text": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+    }
+  ],
+  "artist": "Yukiko Baba"
+}

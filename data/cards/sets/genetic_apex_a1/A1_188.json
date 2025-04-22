@@ -1,0 +1,42 @@
+{
+  "id": "188",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Pidgeot",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Pidgeotto",
+  "type": "Colorless",
+  "hp": "130 HP",
+  "text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Drive Off",
+      "effect": "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+    }
+  ],
+  "moves": [
+    {
+      "name": "Wing Attack",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Scav"
+}

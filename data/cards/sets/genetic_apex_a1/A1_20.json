@@ -1,0 +1,43 @@
+{
+  "id": "20",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Victreebel",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Weepinbell",
+  "type": "Grass",
+  "hp": "140 HP",
+  "text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Fragrance Trap",
+      "effect": "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Vine Whip",
+      "energy": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Sumiyoshi Kizuki"
+}

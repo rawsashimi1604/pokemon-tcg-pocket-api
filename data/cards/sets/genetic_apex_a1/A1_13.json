@@ -1,0 +1,41 @@
+{
+  "id": "13",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Vileplume",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Gloom",
+  "type": "Grass",
+  "hp": "140 HP",
+  "text": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Soothing Scent",
+      "energy": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "artist": "Kyoko Umemoto"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "70",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Horsea",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "60 HP",
+  "text": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Water Gun",
+      "energy": [
+        "Water"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Saya Tsuruta"
+}

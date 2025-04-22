@@ -1,0 +1,35 @@
+{
+  "id": "94",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Pikachu",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "60 HP",
+  "text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Gnaw",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Mitsuhiro Arita"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "50",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Salazzle",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Salandit",
+  "type": "Fire",
+  "hp": "90 HP",
+  "text": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Fire Claws",
+      "energy": [
+        "Fire",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "hatachu"
+}

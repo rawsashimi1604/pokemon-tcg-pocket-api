@@ -1,0 +1,45 @@
+{
+  "id": "67",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Cloyster",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Shellder",
+  "type": "Water",
+  "hp": "120 HP",
+  "text": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Shell Armor",
+      "effect": "This Pokémon takes -10 damage from attacks."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Surf",
+      "energy": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Saya Tsuruta"
+}

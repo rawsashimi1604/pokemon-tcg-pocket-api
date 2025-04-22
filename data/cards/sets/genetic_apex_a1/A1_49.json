@@ -1,0 +1,35 @@
+{
+  "id": "49",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Salandit",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "60 HP",
+  "text": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Scratch",
+      "energy": [
+        "Fire"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Kyoko Umemoto"
+}

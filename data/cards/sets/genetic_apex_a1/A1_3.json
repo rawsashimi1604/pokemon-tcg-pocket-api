@@ -1,0 +1,42 @@
+{
+  "id": "3",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Venusaur",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Ivysaur",
+  "type": "Grass",
+  "hp": "160 HP",
+  "text": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Mega Drain",
+      "energy": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "artist": "Ryota Murayama"
+}

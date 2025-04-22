@@ -1,0 +1,40 @@
+{
+  "id": "274",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Moltres ex",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "140 HP",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like."
+    },
+    {
+      "name": "Heat Blast",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "hncl"
+}

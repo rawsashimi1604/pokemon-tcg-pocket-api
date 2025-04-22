@@ -1,0 +1,39 @@
+{
+  "id": "41",
+  "rarity": "Double Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Arcanine ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Growlithe",
+  "type": "Fire",
+  "hp": "150 HP",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Inferno Onrush",
+      "energy": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": 120,
+      "effect": "This Pokémon also does 20 damage to itself."
+    }
+  ],
+  "artist": "PLANETA Saito"
+}

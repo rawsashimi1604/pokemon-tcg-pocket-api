@@ -1,0 +1,36 @@
+{
+  "id": "81",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Omanyte",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Helix Fossil",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Water Gun",
+      "energy": [
+        "Water"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Suwama Chiaki"
+}

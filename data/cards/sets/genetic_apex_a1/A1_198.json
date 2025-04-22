@@ -1,0 +1,37 @@
+{
+  "id": "198",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Farfetch'd",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Leek Slap",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

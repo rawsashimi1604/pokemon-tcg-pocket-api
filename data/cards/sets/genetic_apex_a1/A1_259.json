@@ -1,0 +1,36 @@
+{
+  "id": "259",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Pikachu ex",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "120 HP",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Circle Circuit",
+      "energy": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 30,
+      "effect": "This attack does 30 damage for each of your Benched [L] Pokémon."
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

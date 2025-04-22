@@ -1,0 +1,36 @@
+{
+  "id": "230",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Charmander",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "60 HP",
+  "text": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Ember",
+      "energy": [
+        "Fire"
+      ],
+      "damage": 30,
+      "effect": "Discard a [R] Energy from this Pokémon."
+    }
+  ],
+  "artist": "GIDORA"
+}

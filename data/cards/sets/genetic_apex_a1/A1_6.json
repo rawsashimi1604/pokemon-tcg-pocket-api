@@ -1,0 +1,38 @@
+{
+  "id": "6",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Metapod",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Caterpie",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bug Bite",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Yuka Morii"
+}

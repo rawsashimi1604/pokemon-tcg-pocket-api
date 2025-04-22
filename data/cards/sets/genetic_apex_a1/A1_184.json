@@ -1,0 +1,38 @@
+{
+  "id": "184",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Dragonair",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Dratini",
+  "type": "Dragon",
+  "hp": "100 HP",
+  "text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+  "weakness": {
+    "type": "none",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tail Smack",
+      "energy": [
+        "Water",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": 80
+    }
+  ],
+  "artist": "kirisAki"
+}

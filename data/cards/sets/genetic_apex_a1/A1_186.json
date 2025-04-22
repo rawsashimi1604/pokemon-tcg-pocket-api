@@ -1,0 +1,35 @@
+{
+  "id": "186",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Pidgey",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Gust",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10
+    }
+  ],
+  "artist": "Scav"
+}

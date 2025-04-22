@@ -1,0 +1,43 @@
+{
+  "id": "261",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Gengar ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Haunter",
+  "type": "Psychic",
+  "hp": "170 HP",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Shadowy Spellbind",
+      "effect": "As long as this Pokémon is in the Active Spot, your opponent can't use any Supporter cards from their hand."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Spooky Shot",
+      "energy": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": 100
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

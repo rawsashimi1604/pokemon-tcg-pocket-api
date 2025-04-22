@@ -1,0 +1,40 @@
+{
+  "id": "45",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Flareon",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Eevee",
+  "type": "Fire",
+  "hp": "120 HP",
+  "text": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Flamethrower",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 110,
+      "effect": "Discard 1 [R] Energy from this Pokémon."
+    }
+  ],
+  "artist": "sui"
+}

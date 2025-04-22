@@ -1,0 +1,37 @@
+{
+  "id": "108",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Eelektrik",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Tynamo",
+  "type": "Lightning",
+  "hp": "80 HP",
+  "text": "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Head Bolt",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Midori Harada"
+}

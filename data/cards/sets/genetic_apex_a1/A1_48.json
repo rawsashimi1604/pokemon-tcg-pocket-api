@@ -1,0 +1,37 @@
+{
+  "id": "48",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Heatmor",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "80 HP",
+  "text": "There’s a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Combustion",
+      "energy": [
+        "Fire"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Suwama Chiaki"
+}

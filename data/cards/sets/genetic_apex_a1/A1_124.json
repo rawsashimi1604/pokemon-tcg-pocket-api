@@ -1,0 +1,37 @@
+{
+  "id": "124",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Drowzee",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "70 HP",
+  "text": "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Mumble",
+      "energy": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Yukiko Baba"
+}

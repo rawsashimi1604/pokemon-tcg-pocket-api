@@ -1,0 +1,40 @@
+{
+  "id": "117",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Alakazam",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Kadabra",
+  "type": "Psychic",
+  "hp": "130 HP",
+  "text": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Psychic",
+      "energy": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+    }
+  ],
+  "artist": "Kouki Saitou"
+}

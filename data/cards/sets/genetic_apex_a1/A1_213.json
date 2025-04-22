@@ -1,0 +1,41 @@
+{
+  "id": "213",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Cinccino",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Minccino",
+  "type": "Colorless",
+  "hp": "90 HP",
+  "text": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Do the Wave",
+      "energy": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect": "This attack does 30 damage for each of your Benched Pokémon."
+    }
+  ],
+  "artist": "0313"
+}

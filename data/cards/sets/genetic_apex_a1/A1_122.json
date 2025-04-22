@@ -1,0 +1,38 @@
+{
+  "id": "122",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Gengar",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Haunter",
+  "type": "Psychic",
+  "hp": "130 HP",
+  "text": "To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bother",
+      "energy": [
+        "Psychic"
+      ],
+      "damage": 50,
+      "effect": "Your opponent can't use any Supporter cards from their hand during their next turn."
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

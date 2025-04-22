@@ -1,0 +1,34 @@
+{
+  "id": "75",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Starmie",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Staryu",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Wave Splash",
+      "energy": [
+        "Water"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Yukiko Baba"
+}

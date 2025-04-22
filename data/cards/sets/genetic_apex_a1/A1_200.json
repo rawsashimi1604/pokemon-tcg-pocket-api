@@ -1,0 +1,36 @@
+{
+  "id": "200",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Dodrio",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Doduo",
+  "type": "Colorless",
+  "hp": "80 HP",
+  "text": "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Drill Peck",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

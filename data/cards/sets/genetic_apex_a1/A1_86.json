@@ -1,0 +1,38 @@
+{
+  "id": "86",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Swanna",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Ducklett",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Wing Attack",
+      "energy": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "sui"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "215",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Dubwool",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Wooloo",
+  "type": "Colorless",
+  "hp": "120 HP",
+  "text": "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You’ll start to bounce the moment you set foot on it.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Rolling Tackle",
+      "energy": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 80
+    }
+  ],
+  "artist": "saino misaki"
+}

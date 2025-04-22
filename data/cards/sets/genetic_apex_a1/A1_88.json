@@ -1,0 +1,36 @@
+{
+  "id": "88",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Frogadier",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Froakie",
+  "type": "Water",
+  "hp": "80 HP",
+  "text": "It can throw bubble-covered pebbles with precise  control, hitting empty cans up to a hundred feet away.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Water Drip",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Akira Komayama"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "232",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Squirtle",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "60 HP",
+  "text": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Water Gun",
+      "energy": [
+        "Water"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Taira Akitsu"
+}

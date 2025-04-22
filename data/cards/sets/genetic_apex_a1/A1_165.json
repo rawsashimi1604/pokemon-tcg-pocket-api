@@ -1,0 +1,41 @@
+{
+  "id": "165",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Arbok",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Ekans",
+  "type": "Darkness",
+  "hp": "100 HP",
+  "text": "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Corner",
+      "energy": [
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect": "During your opponent's next turn, the Defending Pokémon can't retreat."
+    }
+  ],
+  "artist": "Naoki Saito"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "91",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Bruxish",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Second Strike",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+    }
+  ],
+  "artist": "Mizue"
+}

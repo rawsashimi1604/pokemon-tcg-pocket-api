@@ -1,0 +1,37 @@
+{
+  "id": "27",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Cottonee",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "50 HP",
+  "text": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Attach",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10
+    }
+  ],
+  "artist": "Kanako Eo"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "239",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Cubone",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "60 HP",
+  "text": "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage."
+    }
+  ],
+  "artist": "Teeziro"
+}

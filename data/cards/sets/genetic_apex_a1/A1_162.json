@@ -1,0 +1,39 @@
+{
+  "id": "162",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Clobbopus",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "80 HP",
+  "text": "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Knuckle Punch",
+      "energy": [
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Yuu Nishida"
+}

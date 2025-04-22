@@ -1,0 +1,39 @@
+{
+  "id": "134",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Swoobat",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Woobat",
+  "type": "Psychic",
+  "hp": "90 HP",
+  "text": "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Heart Stamp",
+      "energy": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Masakazu Fukuda"
+}

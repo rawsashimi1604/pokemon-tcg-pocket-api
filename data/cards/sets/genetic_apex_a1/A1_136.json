@@ -1,0 +1,45 @@
+{
+  "id": "136",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Golurk",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Golett",
+  "type": "Psychic",
+  "hp": "140 HP",
+  "text": "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Double Lariat",
+      "energy": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 100,
+      "effect": "Flip 2 coins. This attack does 100 damage for each heads."
+    }
+  ],
+  "artist": "match"
+}

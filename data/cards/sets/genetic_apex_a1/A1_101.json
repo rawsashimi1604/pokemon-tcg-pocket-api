@@ -1,0 +1,37 @@
+{
+  "id": "101",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Electabuzz",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "70 HP",
+  "text": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Thunder Punch",
+      "energy": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If heads, this attack does 40 more damage. If tails, this Pokémon also does 20 damage to itself."
+    }
+  ],
+  "artist": "Ryuta Fuse"
+}

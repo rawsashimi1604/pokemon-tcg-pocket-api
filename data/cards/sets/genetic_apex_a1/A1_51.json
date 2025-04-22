@@ -1,0 +1,37 @@
+{
+  "id": "51",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Sizzlipede",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "60 HP",
+  "text": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Gnaw",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10
+    }
+  ],
+  "artist": "Teeziro"
+}

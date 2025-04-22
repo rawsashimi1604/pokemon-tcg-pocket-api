@@ -1,0 +1,38 @@
+{
+  "id": "197",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Persian",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Meowth",
+  "type": "Colorless",
+  "hp": "90 HP",
+  "text": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Shadow Claw",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If heads, discard a random card from your opponent's hand."
+    }
+  ],
+  "artist": "nagimiso"
+}

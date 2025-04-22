@@ -1,0 +1,41 @@
+{
+  "id": "241",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Nidoking",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Nidorino",
+  "type": "Darkness",
+  "hp": "150 HP",
+  "text": "When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Poison Horn",
+      "energy": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 90,
+      "effect": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "artist": "nagimiso"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "150",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Onix",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "110 HP",
+  "text": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Land Crush",
+      "energy": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "otumami"
+}

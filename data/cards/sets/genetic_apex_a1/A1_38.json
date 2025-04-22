@@ -1,0 +1,38 @@
+{
+  "id": "38",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Ninetales",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Vulpix",
+  "type": "Fire",
+  "hp": "90 HP",
+  "text": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Flamethrower",
+      "energy": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": 90,
+      "effect": "Discard a [R] Energy from this Pokémon."
+    }
+  ],
+  "artist": "You Iribi"
+}

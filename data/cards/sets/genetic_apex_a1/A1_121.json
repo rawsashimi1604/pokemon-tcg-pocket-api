@@ -1,0 +1,36 @@
+{
+  "id": "121",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Haunter",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Gastly",
+  "type": "Psychic",
+  "hp": "80 HP",
+  "text": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Will-O-Wisp",
+      "energy": [
+        "Psychic"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Nisata Niso"
+}

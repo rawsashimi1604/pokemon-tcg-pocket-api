@@ -1,0 +1,35 @@
+{
+  "id": "107",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Tynamo",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "30 HP",
+  "text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tiny Charge",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Asako Ito"
+}

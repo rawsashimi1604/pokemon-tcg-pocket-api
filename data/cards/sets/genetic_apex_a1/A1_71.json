@@ -1,0 +1,32 @@
+{
+  "id": "71",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Seadra",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Horsea",
+  "type": "Water",
+  "hp": "70 HP",
+  "text": "It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+    }
+  ],
+  "artist": "Sanosuke Sakuma"
+}

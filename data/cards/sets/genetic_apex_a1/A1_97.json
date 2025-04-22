@@ -1,0 +1,35 @@
+{
+  "id": "97",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Magnemite",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "60 HP",
+  "text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Lightning Ball",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "sowsow"
+}

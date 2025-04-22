@@ -1,0 +1,36 @@
+{
+  "id": "39",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Growlithe",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "70 HP",
+  "text": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bite",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Mizue"
+}

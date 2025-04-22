@@ -1,0 +1,31 @@
+{
+  "id": "115",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Abra",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "60 HP",
+  "text": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+    }
+  ],
+  "artist": "Aya Kusube"
+}

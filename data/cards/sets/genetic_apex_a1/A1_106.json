@@ -1,0 +1,34 @@
+{
+  "id": "106",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Zebstrika",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Blitzle",
+  "type": "Lightning",
+  "hp": "90 HP",
+  "text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "This attack does 30 damage to 1 of your opponent's Pokémon."
+    }
+  ],
+  "artist": "Misa Tsutsui"
+}

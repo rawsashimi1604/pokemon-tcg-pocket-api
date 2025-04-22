@@ -1,0 +1,36 @@
+{
+  "id": "85",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Ducklett",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "50 HP",
+  "text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Flap",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Yumi"
+}

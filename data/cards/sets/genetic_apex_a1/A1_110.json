@@ -1,0 +1,37 @@
+{
+  "id": "110",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Helioptile",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "60 HP",
+  "text": "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon’s electric moves.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tail Whap",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "5ban Graphics"
+}

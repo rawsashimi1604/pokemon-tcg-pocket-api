@@ -1,0 +1,37 @@
+{
+  "id": "79",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Lapras",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "100 HP",
+  "text": "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Hydro Pump",
+      "energy": [
+        "Water"
+      ],
+      "damage": 20,
+      "effect": "If this Pokémon has at least 3 extra [W] Energy attached, this attack does 70 more damage."
+    }
+  ],
+  "artist": "Sekio"
+}

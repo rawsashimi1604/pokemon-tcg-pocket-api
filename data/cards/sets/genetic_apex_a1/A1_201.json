@@ -1,0 +1,40 @@
+{
+  "id": "201",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Lickitung",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "90 HP",
+  "text": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Continuous Lick",
+      "energy": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect": "Flip a coin until you get tails. This attack does 60 damage for each heads."
+    }
+  ],
+  "artist": "Kagemaru Himeno"
+}

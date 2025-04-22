@@ -1,0 +1,35 @@
+{
+  "id": "16",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Venonat",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "60 HP",
+  "text": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tackle",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "HYOGONOSUKE"
+}

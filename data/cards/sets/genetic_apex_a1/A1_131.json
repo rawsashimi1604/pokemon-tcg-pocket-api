@@ -1,0 +1,37 @@
+{
+  "id": "131",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Kirlia",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Ralts",
+  "type": "Psychic",
+  "hp": "80 HP",
+  "text": "It has a psychic power that enables it to distort the space around it and see into the future.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Smack",
+      "energy": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "sowsow"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "80",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Vaporeon",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Eevee",
+  "type": "Water",
+  "hp": "130 HP",
+  "text": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid’s.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bubble Drain",
+      "energy": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "artist": "Kagemaru Himeno"
+}

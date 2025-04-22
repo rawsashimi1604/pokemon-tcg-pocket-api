@@ -1,0 +1,38 @@
+{
+  "id": "194",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Wigglytuff",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Jigglypuff",
+  "type": "Colorless",
+  "hp": "100 HP",
+  "text": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Hyper Voice",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Atsuko Nishida"
+}

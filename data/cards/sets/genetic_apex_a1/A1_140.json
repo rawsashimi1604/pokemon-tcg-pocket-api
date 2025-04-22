@@ -1,0 +1,37 @@
+{
+  "id": "140",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Dugtrio",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Diglett",
+  "type": "Fighting",
+  "hp": "70 HP",
+  "text": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Dig",
+      "energy": [
+        "Fighting"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+    }
+  ],
+  "artist": "Akira Komayama"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "246",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Meowth",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Pay Day",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect": "Draw 1 card."
+    }
+  ],
+  "artist": "Mina Nakai"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "209",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Porygon",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "50 HP",
+  "text": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Data Scan",
+      "effect": "Once during your turn, you may look at the top card of your deck."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Sharpen",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Ayaka Yoshida"
+}

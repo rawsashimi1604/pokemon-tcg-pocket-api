@@ -1,0 +1,35 @@
+{
+  "id": "8",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Weedle",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "50 HP",
+  "text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Sting",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Hajime Kusajima"
+}

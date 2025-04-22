@@ -1,0 +1,40 @@
+{
+  "id": "82",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Omastar",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Omanyte",
+  "type": "Water",
+  "hp": "140 HP",
+  "text": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Ancient Whirlpool",
+      "energy": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 70,
+      "effect": "During your opponent's next turn, the Defending Pokémon can't attack."
+    }
+  ],
+  "artist": "kirisAki"
+}

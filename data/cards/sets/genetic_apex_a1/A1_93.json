@@ -1,0 +1,40 @@
+{
+  "id": "93",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Frosmoth",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Snom",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "Frosmoth senses air currents with its antennae. It sends its scales drifting on frigid air, making them fall like snow.",
+  "weakness": {
+    "type": "Metal",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Powder Snow",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "artist": "aoki"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "46",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Moltres",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "100 HP",
+  "text": "It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Sky Attack",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 130,
+      "effect": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "artist": "Hitoshi Ariga"
+}

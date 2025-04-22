@@ -1,0 +1,45 @@
+{
+  "id": "98",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Magneton",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Magnemite",
+  "type": "Lightning",
+  "hp": "80 HP",
+  "text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Volt Charge",
+      "effect": "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to this Pokémon."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Spinning Attack",
+      "energy": [
+        "Lightning",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "kirisAki"
+}

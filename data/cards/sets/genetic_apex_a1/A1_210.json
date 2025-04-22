@@ -1,0 +1,32 @@
+{
+  "id": "210",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Aerodactyl",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Old Amber",
+  "type": "Colorless",
+  "hp": "100 HP",
+  "text": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Flip a coin. If heads, your opponent shuffles their Active Pokémon back into their deck."
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

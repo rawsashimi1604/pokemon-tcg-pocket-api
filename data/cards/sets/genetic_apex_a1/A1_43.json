@@ -1,0 +1,38 @@
+{
+  "id": "43",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Rapidash",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Ponyta",
+  "type": "Fire",
+  "hp": "100 HP",
+  "text": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Fire Mane",
+      "energy": [
+        "Fire"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Misa Tsutsui"
+}

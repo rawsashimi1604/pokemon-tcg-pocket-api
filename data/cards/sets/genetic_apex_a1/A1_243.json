@@ -1,0 +1,43 @@
+{
+  "id": "243",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Weezing",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Koffing",
+  "type": "Darkness",
+  "hp": "110 HP",
+  "text": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Gas Leak",
+      "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Poisoned."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Tackle",
+      "energy": [
+        "Darkness"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "KEIICHIRO ITO"
+}

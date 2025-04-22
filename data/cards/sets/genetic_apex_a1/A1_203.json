@@ -1,0 +1,38 @@
+{
+  "id": "203",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Kangaskhan",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "100 HP",
+  "text": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Dizzy Punch",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect": "Flip 2 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "artist": "Ken Sugimori"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "161",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Mienshao",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Mienfoo",
+  "type": "Fighting",
+  "hp": "80 HP",
+  "text": "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Spiral Kick",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Atsuko Nishida"
+}

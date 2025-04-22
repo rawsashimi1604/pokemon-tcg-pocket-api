@@ -1,0 +1,37 @@
+{
+  "id": "237",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Slowpoke",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "70 HP",
+  "text": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tail Whap",
+      "energy": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

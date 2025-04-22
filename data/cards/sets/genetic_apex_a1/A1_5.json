@@ -1,0 +1,31 @@
+{
+  "id": "5",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Caterpie",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "50 HP",
+  "text": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Put 1 random [G] Pokémon from your deck into your hand."
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

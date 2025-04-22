@@ -1,0 +1,35 @@
+{
+  "id": "100",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Electrode",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Voltorb",
+  "type": "Lightning",
+  "hp": "80 HP",
+  "text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Electro Ball",
+      "energy": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Asako Ito"
+}

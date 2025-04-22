@@ -1,0 +1,31 @@
+{
+  "id": "181",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Meltan",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Metal",
+  "hp": "60 HP",
+  "text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Take 1 [M] Energy from your Energy Zone and attach it to this Pokémon."
+    }
+  ],
+  "artist": "Shin Nagasawa"
+}

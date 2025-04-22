@@ -1,0 +1,39 @@
+{
+  "id": "58",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Golduck",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Psyduck",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Aqua Edge",
+      "energy": [
+        "Water",
+        "Water"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Naoki Saito"
+}

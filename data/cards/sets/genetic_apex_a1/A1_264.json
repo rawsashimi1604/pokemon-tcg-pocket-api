@@ -1,0 +1,37 @@
+{
+  "id": "264",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Marowak ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Cubone",
+  "type": "Fighting",
+  "hp": "140 HP",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bonemerang",
+      "energy": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 80,
+      "effect": "Flip 2 coins. This attack does 80 damage for each heads."
+    }
+  ],
+  "artist": "PLANETA Mochizuki"
+}

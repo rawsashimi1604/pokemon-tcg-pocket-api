@@ -1,0 +1,48 @@
+{
+  "id": "56",
+  "rarity": "Double Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Blastoise ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Wartortle",
+  "type": "Water",
+  "hp": "180 HP",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Surf",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 40
+    },
+    {
+      "name": "Hydro Bazooka",
+      "energy": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": 100,
+      "effect": "If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage."
+    }
+  ],
+  "artist": "PLANETA Tsuji"
+}

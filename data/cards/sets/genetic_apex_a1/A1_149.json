@@ -1,0 +1,43 @@
+{
+  "id": "149",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Golem",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Graveler",
+  "type": "Fighting",
+  "hp": "160 HP",
+  "text": "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Double-Edge",
+      "energy": [
+        "Fighting",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 150,
+      "effect": "This Pokémon also does 50 damage to itself."
+    }
+  ],
+  "artist": "Sumiyoshi Kizuki"
+}

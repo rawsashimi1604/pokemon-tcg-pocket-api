@@ -1,0 +1,35 @@
+{
+  "id": "155",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Hitmonchan",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "80 HP",
+  "text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Jab",
+      "energy": [
+        "Fighting"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Ken Sugimori"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "168",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Nidoqueen",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Nidorina",
+  "type": "Darkness",
+  "hp": "140 HP",
+  "text": "Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Lovestrike",
+      "energy": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "This attack does 50 more damage for each of your Benched Nidoking."
+    }
+  ],
+  "artist": "nagimiso"
+}

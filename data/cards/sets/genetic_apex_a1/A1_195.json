@@ -1,0 +1,39 @@
+{
+  "id": "195",
+  "rarity": "Double Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Wigglytuff ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Jigglypuff",
+  "type": "Colorless",
+  "hp": "140 HP",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Sleepy Song",
+      "energy": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "artist": "PLANETA Igarashi"
+}

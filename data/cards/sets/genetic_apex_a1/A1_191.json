@@ -1,0 +1,35 @@
+{
+  "id": "191",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Spearow",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Colorless",
+  "hp": "60 HP",
+  "text": "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Peck",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Shiburingaru"
+}

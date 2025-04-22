@@ -1,0 +1,40 @@
+{
+  "id": "30",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Lilligant",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Petilil",
+  "type": "Grass",
+  "hp": "100 HP",
+  "text": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Leaf Supply",
+      "energy": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": 50,
+      "effect": "Take a [G] Energy from your Energy Zone and attach it to 1 of your Benched [G] Pokémon."
+    }
+  ],
+  "artist": "You Iribi"
+}

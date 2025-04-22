@@ -1,0 +1,39 @@
+{
+  "id": "63",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Tentacruel",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Tentacool",
+  "type": "Water",
+  "hp": "110 HP",
+  "text": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Poison Tentacles",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 50,
+      "effect": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "artist": "kodama"
+}

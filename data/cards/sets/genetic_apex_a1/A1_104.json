@@ -1,0 +1,44 @@
+{
+  "id": "104",
+  "rarity": "Double Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Zapdos ex",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "130 HP",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Peck",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 20
+    },
+    {
+      "name": "Thundering Hurricane",
+      "energy": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 50,
+      "effect": "Flip 4 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

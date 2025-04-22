@@ -1,0 +1,41 @@
+{
+  "id": "109",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Eelektross",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Eelektrik",
+  "type": "Lightning",
+  "hp": "140 HP",
+  "text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Thunder Fang",
+      "energy": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "artist": "hatachu"
+}

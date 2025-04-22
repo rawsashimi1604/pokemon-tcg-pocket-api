@@ -1,0 +1,37 @@
+{
+  "id": "17",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Venomoth",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Venonat",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Poison Powder",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 30,
+      "effect": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "artist": "Mina Nakai"
+}

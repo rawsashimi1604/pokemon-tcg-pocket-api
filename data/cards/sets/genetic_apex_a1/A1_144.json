@@ -1,0 +1,38 @@
+{
+  "id": "144",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Machoke",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Machop",
+  "type": "Fighting",
+  "hp": "100 HP",
+  "text": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Strength",
+      "energy": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 50
+    }
+  ],
+  "artist": "match"
+}

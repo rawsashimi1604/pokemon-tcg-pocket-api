@@ -1,0 +1,41 @@
+{
+  "id": "135",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Golett",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "90 HP",
+  "text": "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "energy": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 50
+    }
+  ],
+  "artist": "Kyoko Umemoto"
+}

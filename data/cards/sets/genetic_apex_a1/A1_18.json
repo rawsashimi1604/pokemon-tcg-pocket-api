@@ -1,0 +1,35 @@
+{
+  "id": "18",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Bellsprout",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "60 HP",
+  "text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Vine Whip",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "HYOGONOSUKE"
+}

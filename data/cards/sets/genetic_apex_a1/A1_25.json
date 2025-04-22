@@ -1,0 +1,35 @@
+{
+  "id": "25",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Scyther",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "70 HP",
+  "text": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Sharp Scythe",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "Hasuno"
+}

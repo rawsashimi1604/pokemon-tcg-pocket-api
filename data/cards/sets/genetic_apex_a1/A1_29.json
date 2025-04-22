@@ -1,0 +1,38 @@
+{
+  "id": "29",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Petilil",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "60 HP",
+  "text": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Blot",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 10,
+      "effect": "Heal 10 damage from this Pokémon."
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

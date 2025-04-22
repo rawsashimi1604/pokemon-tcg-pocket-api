@@ -1,0 +1,46 @@
+{
+  "id": "182",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Melmetal",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Meltan",
+  "type": "Metal",
+  "hp": "130 HP",
+  "text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Hard Coat",
+      "effect": "This Pokémon takes -20 damage from attacks."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Heavy Impact",
+      "energy": [
+        "Metal",
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "damage": 120
+    }
+  ],
+  "artist": "Kouki Saitou"
+}

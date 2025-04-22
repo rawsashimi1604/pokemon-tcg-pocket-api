@@ -1,0 +1,40 @@
+{
+  "id": "145",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Machamp",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Machoke",
+  "type": "Fighting",
+  "hp": "150 HP",
+  "text": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Seismic Toss",
+      "energy": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 100
+    }
+  ],
+  "artist": "Hitoshi Ariga"
+}

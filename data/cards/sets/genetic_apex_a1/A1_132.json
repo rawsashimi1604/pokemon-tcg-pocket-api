@@ -1,0 +1,44 @@
+{
+  "id": "132",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Gardevoir",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Kirlia",
+  "type": "Psychic",
+  "hp": "110 HP",
+  "text": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Psy Shadow",
+      "effect": "Once during your turn, you may take 1 [P] Energy from your Energy Zone and attach it to the [P] Pokémon in the Active Spot."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Psyshot",
+      "energy": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "Yuu Nishida"
+}

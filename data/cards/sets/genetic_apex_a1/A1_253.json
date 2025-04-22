@@ -1,0 +1,49 @@
+{
+  "id": "253",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Charizard ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Charmeleon",
+  "type": "Fire",
+  "hp": "180 HP",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Slash",
+      "energy": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    },
+    {
+      "name": "Crimson Storm",
+      "energy": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 200,
+      "effect": "Discard 2 [R] Energy from this Pokémon."
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

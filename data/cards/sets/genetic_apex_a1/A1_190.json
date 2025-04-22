@@ -1,0 +1,38 @@
+{
+  "id": "190",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Raticate",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Rattata",
+  "type": "Colorless",
+  "hp": "80 HP",
+  "text": "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bite",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Shigenori Negishi"
+}

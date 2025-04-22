@@ -1,0 +1,37 @@
+{
+  "id": "105",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Blitzle",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "60 HP",
+  "text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Zap Kick",
+      "energy": [
+        "Lightning"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Shin Nagasawa"
+}

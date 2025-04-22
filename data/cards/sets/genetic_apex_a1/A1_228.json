@@ -1,0 +1,38 @@
+{
+  "id": "228",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Gloom",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Oddish",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Drool",
+      "energy": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "OKACHEKE"
+}

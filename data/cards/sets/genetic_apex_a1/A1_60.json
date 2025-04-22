@@ -1,0 +1,38 @@
+{
+  "id": "60",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Poliwhirl",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Poliwag",
+  "type": "Water",
+  "hp": "90 HP",
+  "text": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Knuckle Punch",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Yuka Morii"
+}

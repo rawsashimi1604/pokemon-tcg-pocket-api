@@ -1,0 +1,36 @@
+{
+  "id": "31",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Skiddo",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "70 HP",
+  "text": "Until recently, people living in the mountains would ride on the backs of these Pokémon to traverse the mountain paths.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Surprise Attack",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "artist": "Naoki Saito"
+}

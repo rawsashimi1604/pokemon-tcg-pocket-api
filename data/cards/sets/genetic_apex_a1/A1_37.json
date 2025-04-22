@@ -1,0 +1,31 @@
+{
+  "id": "37",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Vulpix",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fire",
+  "hp": "50 HP",
+  "text": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+  "weakness": {
+    "type": "Water",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
+    }
+  ],
+  "artist": "Toshinao Aoki"
+}

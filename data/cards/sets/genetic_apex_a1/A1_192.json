@@ -1,0 +1,38 @@
+{
+  "id": "192",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Fearow",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Spearow",
+  "type": "Colorless",
+  "hp": "100 HP",
+  "text": "Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Drill Run",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 50,
+      "effect": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "artist": "Satoshi Shirai"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "11",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Oddish",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "60 HP",
+  "text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Ram",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "HYOGONOSUKE"
+}

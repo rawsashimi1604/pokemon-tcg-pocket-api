@@ -1,0 +1,35 @@
+{
+  "id": "169",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Nidoran♂",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Darkness",
+  "hp": "60 HP",
+  "text": "The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Peck",
+      "energy": [
+        "Darkness"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "68",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Krabby",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "70 HP",
+  "text": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Vise Grip",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Tomokazu Komiya"
+}

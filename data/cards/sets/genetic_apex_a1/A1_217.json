@@ -1,0 +1,17 @@
+{
+  "id": "217",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Dome Fossil",
+  "card_type": "Trainer",
+  "type": "Item",
+  "effect": "Play this card as if it were a 40-HP Basic [C] Pokémon.At any time during your turn, you may discard this card from play.This card can't retreat.",
+  "text": "You may play any number of Item cards during your turn.",
+  "artist": "Toyste Beach"
+}

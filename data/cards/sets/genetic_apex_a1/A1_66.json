@@ -1,0 +1,35 @@
+{
+  "id": "66",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Shellder",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "60 HP",
+  "text": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tongue Slap",
+      "energy": [
+        "Water"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Sumiyoshi Kizuki"
+}

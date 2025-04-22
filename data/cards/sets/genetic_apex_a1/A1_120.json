@@ -1,0 +1,35 @@
+{
+  "id": "120",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Gastly",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Psychic",
+  "hp": "60 HP",
+  "text": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+  "weakness": {
+    "type": "Darkness",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Suffocating Gas",
+      "energy": [
+        "Psychic"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Masako Yamashita"
+}

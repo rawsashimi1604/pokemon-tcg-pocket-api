@@ -1,0 +1,36 @@
+{
+  "id": "178",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Mawile",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Metal",
+  "hp": "70 HP",
+  "text": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Crunch",
+      "energy": [
+        "Metal"
+      ],
+      "damage": 20,
+      "effect": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "artist": "Kagemaru Himeno"
+}

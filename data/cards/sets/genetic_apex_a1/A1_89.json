@@ -1,0 +1,42 @@
+{
+  "id": "89",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Greninja",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Frogadier",
+  "type": "Water",
+  "hp": "120 HP",
+  "text": "It creates throwing stars out of compressed water.  When it spins them and throws them at high speed,  these stars can split metal in two.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Water Shuriken",
+      "effect": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mist Slash",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 60
+    }
+  ],
+  "artist": "5ban Graphics"
+}

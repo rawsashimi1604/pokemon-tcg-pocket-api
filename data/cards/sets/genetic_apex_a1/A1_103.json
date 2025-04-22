@@ -1,0 +1,38 @@
+{
+  "id": "103",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Zapdos",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Lightning",
+  "hp": "100 HP",
+  "text": "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Raging Thunder",
+      "energy": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": 100,
+      "effect": "This attack also does 30 damage to 1 of your Benched Pokémon."
+    }
+  ],
+  "artist": "Hitoshi Ariga"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "141",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Mankey",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "60 HP",
+  "text": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+  "weakness": {
+    "type": "Psychic",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Low Kick",
+      "energy": [
+        "Fighting"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Kanako Eo"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "175",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Muk",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Grimer",
+  "type": "Darkness",
+  "hp": "130 HP",
+  "text": "It’s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Venoshock",
+      "energy": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 70,
+      "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage."
+    }
+  ],
+  "artist": "Hajime Kusajima"
+}

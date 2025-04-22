@@ -1,0 +1,39 @@
+{
+  "id": "22",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Exeggutor",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Exeggcute",
+  "type": "Grass",
+  "hp": "130 HP",
+  "text": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Stomp",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 30,
+      "effect": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "artist": "Yukiko Baba"
+}

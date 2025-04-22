@@ -1,0 +1,35 @@
+{
+  "id": "176",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Koffing",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Darkness",
+  "hp": "70 HP",
+  "text": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Suffocating Gas",
+      "energy": [
+        "Darkness"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Saya Tsuruta"
+}

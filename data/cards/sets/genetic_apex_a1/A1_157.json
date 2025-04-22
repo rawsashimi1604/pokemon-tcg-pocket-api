@@ -1,0 +1,42 @@
+{
+  "id": "157",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Rhydon",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Rhyhorn",
+  "type": "Fighting",
+  "hp": "120 HP",
+  "text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Horn Drill",
+      "energy": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 100
+    }
+  ],
+  "artist": "Masakazu Fukuda"
+}

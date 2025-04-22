@@ -1,0 +1,37 @@
+{
+  "id": "54",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Wartortle",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Squirtle",
+  "type": "Water",
+  "hp": "80 HP",
+  "text": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Wave Splash",
+      "energy": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Nelnal"
+}

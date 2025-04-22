@@ -1,0 +1,34 @@
+{
+  "id": "244",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Dragonite",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Dragonair",
+  "type": "Dragon",
+  "hp": "160 HP",
+  "text": "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
+  "weakness": {
+    "type": "none",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it."
+    }
+  ],
+  "artist": "Gemi"
+}

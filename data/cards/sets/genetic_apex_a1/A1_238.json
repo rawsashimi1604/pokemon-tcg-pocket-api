@@ -1,0 +1,35 @@
+{
+  "id": "238",
+  "rarity": "Illustration Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Diglett",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Fighting",
+  "hp": "50 HP",
+  "text": "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Mud-Slap",
+      "energy": [
+        "Fighting"
+      ],
+      "damage": 20
+    }
+  ],
+  "artist": "Shinya Komatsu"
+}

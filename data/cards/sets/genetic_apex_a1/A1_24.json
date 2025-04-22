@@ -1,0 +1,38 @@
+{
+  "id": "24",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Tangela",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Absorb",
+      "energy": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect": "Heal 10 damage from this Pokémon."
+    }
+  ],
+  "artist": "Midori Harada"
+}

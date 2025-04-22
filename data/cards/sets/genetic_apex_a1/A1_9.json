@@ -1,0 +1,37 @@
+{
+  "id": "9",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Kakuna",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Weedle",
+  "type": "Grass",
+  "hp": "80 HP",
+  "text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Bug Bite",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 30
+    }
+  ],
+  "artist": "miki kudo"
+}

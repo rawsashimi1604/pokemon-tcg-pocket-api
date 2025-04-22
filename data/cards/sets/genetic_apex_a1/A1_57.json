@@ -1,0 +1,38 @@
+{
+  "id": "57",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Psyduck",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Water",
+  "hp": "60 HP",
+  "text": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Headache",
+      "energy": [
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect": "Your opponent can't use any Supporter cards from their hand during their next turn."
+    }
+  ],
+  "artist": "Shibuzoh."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "251",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Venusaur ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Ivysaur",
+  "type": "Grass",
+  "hp": "190 HP",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Razor Leaf",
+      "energy": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60
+    },
+    {
+      "name": "Giant Bloom",
+      "energy": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 100,
+      "effect": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

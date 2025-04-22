@@ -1,0 +1,40 @@
+{
+  "id": "26",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Pinsir",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Grass",
+  "hp": "90 HP",
+  "text": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Double Horn",
+      "energy": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": 50,
+      "effect": "Flip 2 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "artist": "Eri Yamaki"
+}

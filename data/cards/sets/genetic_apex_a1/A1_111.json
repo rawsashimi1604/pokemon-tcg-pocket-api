@@ -1,0 +1,40 @@
+{
+  "id": "111",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Heliolisk",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Helioptile",
+  "type": "Lightning",
+  "hp": "90 HP",
+  "text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Quick Attack",
+      "energy": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "artist": "otumami"
+}

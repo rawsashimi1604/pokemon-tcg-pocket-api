@@ -1,0 +1,36 @@
+{
+  "id": "10",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Mewtwo"
+  ],
+  "name": "Beedrill",
+  "card_type": "Pokemon",
+  "stage": "Stage 2",
+  "evolutionFrom": "Kakuna",
+  "type": "Grass",
+  "hp": "120 HP",
+  "text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Sharp Sting",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "You Iribi"
+}

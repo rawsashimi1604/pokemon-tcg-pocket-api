@@ -1,0 +1,39 @@
+{
+  "id": "180",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard",
+    "Mewtwo",
+    "Pikachu"
+  ],
+  "name": "Bisharp",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Pawniard",
+  "type": "Metal",
+  "hp": "90 HP",
+  "text": "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Metal Claw",
+      "energy": [
+        "Metal",
+        "Metal"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Anesaki Dynamic"
+}

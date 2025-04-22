@@ -1,0 +1,17 @@
+{
+  "id": "226",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Lt. Surge",
+  "card_type": "Trainer",
+  "type": "Supporter",
+  "effect": "Move all [L] Energy from your Benched Pokémon to your Raichu, Electrode, or Electabuzz in the Active Spot.",
+  "text": "You may play only 1 Supporter card during your turn.",
+  "artist": "nagimiso"
+}

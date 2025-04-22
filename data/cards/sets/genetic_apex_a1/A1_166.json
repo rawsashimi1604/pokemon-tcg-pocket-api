@@ -1,0 +1,31 @@
+{
+  "id": "166",
+  "rarity": "Common",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Nidoran♀",
+  "card_type": "Pokemon",
+  "stage": "Basic",
+  "type": "Darkness",
+  "hp": "60 HP",
+  "text": "Females are more sensitive to smells than males. While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "effect": "Put 1 random Nidoran♂ from your deck onto your Bench."
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

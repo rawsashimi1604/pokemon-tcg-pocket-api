@@ -1,0 +1,40 @@
+{
+  "id": "148",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Graveler",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Geodude",
+  "type": "Fighting",
+  "hp": "100 HP",
+  "text": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
+  "weakness": {
+    "type": "Grass",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Rollout",
+      "energy": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 70
+    }
+  ],
+  "artist": "Naoyo Kimura"
+}

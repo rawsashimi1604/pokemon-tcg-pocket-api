@@ -1,0 +1,38 @@
+{
+  "id": "252",
+  "rarity": "Special Art Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Exeggutor ex",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Exeggcute",
+  "type": "Grass",
+  "hp": "160 HP",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Tropical Swing",
+      "energy": [
+        "Grass"
+      ],
+      "damage": 40,
+      "effect": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "artist": "PLANETA CG Works"
+}

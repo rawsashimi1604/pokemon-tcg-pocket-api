@@ -1,0 +1,39 @@
+{
+  "id": "95",
+  "rarity": "Rare",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Raichu",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Pikachu",
+  "type": "Lightning",
+  "hp": "100 HP",
+  "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+  "weakness": {
+    "type": "Fighting",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Thunderbolt",
+      "energy": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 140,
+      "effect": "Discard all Energy from this Pokémon."
+    }
+  ],
+  "artist": "AKIRA EGAWA"
+}

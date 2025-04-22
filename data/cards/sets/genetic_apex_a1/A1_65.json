@@ -1,0 +1,40 @@
+{
+  "id": "65",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Pikachu"
+  ],
+  "name": "Dewgong",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Seel",
+  "type": "Water",
+  "hp": "120 HP",
+  "text": "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+  "weakness": {
+    "type": "Lightning",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Surf",
+      "energy": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": 90
+    }
+  ],
+  "artist": "Kanako Eo"
+}

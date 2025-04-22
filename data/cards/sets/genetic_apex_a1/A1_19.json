@@ -1,0 +1,38 @@
+{
+  "id": "19",
+  "rarity": "Uncommon",
+  "set": {
+    "id": "A1",
+    "name": "Genetic Apex  (A1)"
+  },
+  "pack": [
+    "Charizard"
+  ],
+  "name": "Weepinbell",
+  "card_type": "Pokemon",
+  "stage": "Stage 1",
+  "evolutionFrom": "Bellsprout",
+  "type": "Grass",
+  "hp": "90 HP",
+  "text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+  "weakness": {
+    "type": "Fire",
+    "value": 20
+  },
+  "retreat": [
+    "Colorless",
+    "Colorless"
+  ],
+  "abilities": [],
+  "moves": [
+    {
+      "name": "Razor Leaf",
+      "energy": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 40
+    }
+  ],
+  "artist": "Miki Tanaka"
+}

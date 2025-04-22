@@ -1,12 +1,12 @@
 {
-  "id": "3",
+  "id": "4",
   "set": {
     "id": "A1",
     "name": "Genetic Apex (A1)",
     "ref": "/some/set/link/here/A1"
   },
   "card_type": "Pokemon",
-  "type": "Trainer",
+  "type": "Grass",
   "name": "Venusaur ex",
   "stage": "Stage 2",
   "rarity": "Double Rare",
